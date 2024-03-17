@@ -1,0 +1,1 @@
+export const ownerId = 1250443643
