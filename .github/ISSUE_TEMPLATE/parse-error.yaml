@@ -9,6 +9,7 @@ body:
       label: Error
       description: The error message shown in the output channel.
       placeholder: "Error message"
+      value: "```json\n\n```"
     validations:
       required: true
   - type: input
