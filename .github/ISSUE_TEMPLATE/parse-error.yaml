@@ -1,6 +1,8 @@
 name: Parse Fail Error
 description: Use this tempplate to report when the extension fails to parse your configuration
 labels: ["bug"]
+assignees:
+  Taib-Rabah
 body:
   - type: textarea
     id: config
