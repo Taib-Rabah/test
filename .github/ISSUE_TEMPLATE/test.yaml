@@ -1,10 +1,12 @@
-name: Parse Fail 2
+name: Parse Fail
 description: Use this template to report a bug where the extension fails to parse the configuration.
 title: "[BUG] Failed to parse configuration"
 labels: ["bug"]
 body:
-  - type: input
+  - type: textarea
     id: error
-    name: error
-    placeholder: "Error message"
-    required: true
+    attributes:
+      label: Error
+      description: The error message that the extension failed to parse the configuration.
+      placeholder: "Error message"
+      required: true
