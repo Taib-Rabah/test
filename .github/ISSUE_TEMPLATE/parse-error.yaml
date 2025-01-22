@@ -1,7 +1,7 @@
 name: Parse Fail
 description: File a parse fail report.
 title: "[BUG]: Failed to parse configuration"
-label: ["bug"]
+labels: ["bug"]
 assignees:
   - Taib-Rabah
 body:
