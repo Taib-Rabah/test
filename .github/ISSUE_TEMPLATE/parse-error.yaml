@@ -7,7 +7,7 @@ body:
     id: error
     attributes:
       label: Error
-      description: The error message that the extension failed to parse the configuration.
+      description: The error message shown in the output channel.
       placeholder: "Error message"
     validations:
       required: true
@@ -15,7 +15,7 @@ body:
     id: version
     attributes:
       label: Version
-      description: The version of the extension that failed to parse the configuration.
+      description: The version of the extension (also shown in the output channel).
       placeholder: "1.0.0"
     validations:
       required: true
