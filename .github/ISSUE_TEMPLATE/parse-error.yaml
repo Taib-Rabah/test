@@ -1,21 +1,30 @@
-name: Parse Fail Error
-description: Use this tempplate to report when the extension fails to parse your configuration
-labels: ["bug"]
+name: Parse Fail
+description: File a parse fail report.
+title: "[BUG]: Failed to parse configuration"
+label: ["bug"]
 assignees:
-  Taib-Rabah
+  - Taib-Rabah
 body:
   - type: textarea
-    id: config
-    attributes:
-      label: Configuration
-      description: "User's configuration that causes the error"
-  - type: textarea
-    id: error
+    validations:
+      required: true
     attributes:
       label: Error
-      description: "The error shown"
+      placeholder: Wrap the error within a json codeblock
+      description: the error shown in the output chanel
   - type: input
-    id: version
+    validations:
+      required: true
     attributes:
       label: Version
-      description: "The extension's version"
+      validations:
+        required: true
+      attributes:
+        placeholder: ex. 0.1.0
+        description: the extension version (also printed in the output chanel)
+  - type: textarea
+    validations:
+      required: false
+    attributes:
+      label: Anything else
+      description: If you have anything else, please tell us.
