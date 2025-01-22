@@ -7,7 +7,7 @@ body:
     id: error
     attributes:
       label: Error
-      description: The error message shown in the output channel.
+      description: The error message shown in the output channel. Please wrap it in a code block for better readability.
       placeholder: "Error message"
       value: "```json\n\n```"
     validations:
