@@ -9,4 +9,5 @@ body:
       label: Error
       description: The error message that the extension failed to parse the configuration.
       placeholder: "Error message"
+    validations:
       required: true
