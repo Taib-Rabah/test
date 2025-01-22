@@ -1,4 +1,4 @@
-name: Parse Fail
+name: Parse Fail2
 description: Use this template to report a bug where the extension fails to parse the configuration.
 title: "[BUG] Failed to parse configuration"
 labels: ["bug"]
