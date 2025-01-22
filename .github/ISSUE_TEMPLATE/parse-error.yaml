@@ -6,12 +6,12 @@ assignees:
   - Taib-Rabah
 body:
   - type: textarea
-    validations:
-      required: true
     attributes:
       label: Error
       placeholder: Wrap the error within a json codeblock
       description: the error shown in the output chanel
+    validations:
+      required: true
   - type: input
     validations:
       required: true
