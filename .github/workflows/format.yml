@@ -10,3 +10,5 @@ jobs:
       format-script: ci:format
       check-format-script: ci:check-format
       commit-message: Format
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
