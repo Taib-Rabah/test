@@ -3,6 +3,9 @@ run-name: Format
 
 on: [push]
 
+permissions:
+  contents: write
+
 jobs:
   format:
     uses: trdev20-actions/workflows/.github/workflows/format.yml@main
