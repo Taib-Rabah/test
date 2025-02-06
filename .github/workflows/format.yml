@@ -1,0 +1,12 @@
+name: Format
+run-name: Format
+
+on: [push]
+
+jobs:
+  format:
+    uses: trdev20-actions/workflows/.github/workflows/format.yml@main
+    with:
+      format-script: ci:format
+      check-format-script: ci:check-format
+      commit-message: Format
