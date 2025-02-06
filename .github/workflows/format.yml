@@ -8,10 +8,10 @@ permissions:
 
 jobs:
   format:
-    uses: trdev20-actions/workflows/.github/workflows/format.yml@main
+    uses: trdev20-actions/workflows/.github/workflows/format.yml@v1
     with:
       format-script: ci:format
       check-format-script: ci:check-format
-      commit-message: Format
+      commit-message: Format It
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
